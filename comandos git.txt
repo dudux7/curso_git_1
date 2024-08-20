@@ -1,0 +1,5 @@
+$ git status : ver status do  repositório
+$ git init : cria um repositório
+$ git add : add arquivos para repositório git
+$ git push -u origin main: envia arquivos para git hub
+$ git commit -a: salva alteraçoes no git
