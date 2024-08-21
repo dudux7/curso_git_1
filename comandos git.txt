@@ -9,3 +9,4 @@ $ git branch */ nome da branch /* : cria uma nova branch
 $ git branch -d */ nome da branch /* : deleta o nome da branch
 $ git checkout : muda de branch
 $ git checkout -b : cria e muda de branch
+$ git stash : funciona como uma lixeira, ele desfaz e armazena todo codigo não comitado
