@@ -4,3 +4,6 @@ $ git add : add arquivos para repositório git
 $ git push -u origin main: envia arquivos para git hub
 $ git commit -a: salva alteraçoes no git
 $ git rm : deleta arquivos
+$ git branch : visualiza as branch
+$ git branch */ nome da branch /* : cria uma nova branch
+$ git branch -d */ nome da branch /* : deleta o nome da branch
