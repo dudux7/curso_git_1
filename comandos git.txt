@@ -10,3 +10,8 @@ $ git branch -d */ nome da branch /* : deleta o nome da branch
 $ git checkout : muda de branch
 $ git checkout -b : cria e muda de branch
 $ git stash : funciona como uma lixeira, ele desfaz e armazena todo codigo não comitado
+$ git stash list : exibe as stash
+$ git stash apply + num da stash : recupera stash
+$ git stash show -p + num da stash : mostra oq tem na stash
+$ git stach drop + num da stash : apaga apenas a stach desejada
+$ git stach clear: apaga todas as stash
