@@ -7,3 +7,5 @@ $ git rm : deleta arquivos
 $ git branch : visualiza as branch
 $ git branch */ nome da branch /* : cria uma nova branch
 $ git branch -d */ nome da branch /* : deleta o nome da branch
+$ git checkout : muda de branch
+$ git checkout -b : cria e muda de branch
