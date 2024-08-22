@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+<form action="login.php" method="post">
+<div class="diplay">
+<label>Login</label>
+<input type="text" name="login">
+<label>Senha</label>
+<input type="password" name="senha">
+<input class="none" type="submit">
+</div>
+</form>
+</body>
+</html>
+
+<style>
+*{
+background-color: white;
+font-size: 20px;
+}
+
+form{
+border: 1px solid black;
+max-width: 400px;
+height: 600px;
+display: flex;
+margin: 0 auto;
+}
+
+label{
+font-weight: bold;
+}
+
+input{
+border-radius: 10px;
+}
+
+.none{
+background-color: purple ;
+transition: .5s;
+}
+
+.none:hover{
+background-color: aqua;
+}
+</style>
